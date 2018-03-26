@@ -13,6 +13,12 @@ Data Visuals: Display or graph 3 metrics or trends from the data set that are in
 ![Figure 3](https://cable-2-5.github.io/images/Figure%203.png)
 
 
+## Question 2
+Given an address and time, what is the most likely dispatch to be required?
+
+[Temporary Link](https://cable-2-5.github.io/lookup/dispatch.html)
+
+
 ## Question 3
 Which areas take the longest time to dispatch to on average? How can this be reduced?
 
