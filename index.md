@@ -4,13 +4,13 @@
 Data Visuals: Display or graph 3 metrics or trends from the data set that are interesting to you.
 
 **Figure 1** displays the amount of time (in minutes) from when the San Francisco Fire Department received a call for help to when the units arrived on the scene per zip code.  When examining the average time to get to a destination, a simple average may be misleading.  As displayed by this graph, there are two noticeable outliers in the data.  In zip code 94105, it took over 6 hours for the fire department to respond to one particular incident.  Similarly, it took almost 13 hours for the fire department to respond to an incident in zip code 94127.  The areas where the line is darker mean that multiple units were dispatched to that area.  Thus, a few outliers can massively change the average.
-![Figure 1](https://github.com/Cable-2-5/Internship-Projects/blob/master/images/Figure%201.png)
+![Figure 1](https://cable-2-5.github.io/images/Figure%201.png)
 
 **Figure 2** examines the relationship between zip code, the number of emergencies (numbers on the map), and the average amount of units deployed to each emergency in that zip code.  On average, 2.15 units are deployed per emergency.  Three of the four zip codes with the smallest amount of emergencies have above the average number of units deployed to these areas.  Zip code 91427 is an extreme abnormality with roughly 10.4 units being deployed per emergency.  However, this is likely due to the extreme outlier where a particular incident required 40 units to be dispatched to a single location.  Nevertheless, this data could be suggesting that an abnormally high number of units are being sent to areas of few emergencies, which ultimately may point to inefficiencies in the San Francisco Fire Department system.
 ![Figure 2](https://cable-2-5.github.io/images/Figure%202.png)
 
 **Figure 3** examines the type of emergencies, the number of incidents (number above each bar), and the average number of units deployed to a particular emergency.  The graph reveals that train/rail incidents, water rescues, and structure fires require more vehicle dispatches per incident than other incidents.  It also shows that medical incidents are the most common kind of emergency with 6791 of the 10,000 different cases being medical incidents.  One kind of incident is both common and requires many units.  Structure fires are the 3rd most common kind of emergency and require roughly 5.5 units per emergency.  
-![Figure 3](https://github.com/Cable-2-5/Internship-Projects/blob/master/images/Figure%203.png)
+![Figure 3](https://cable-2-5.github.io/images/Figure%203.png)
 
 
 ## Question 3
