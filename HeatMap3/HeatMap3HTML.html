@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<head>
+<link rel="stylesheet" type="text/css" href="HeatMapCSS.css">
+</head>
+
+<!--The border between 94102 and 94103 is the area of greatest delay-->
+<body>
+<div id="floating-panel">
+  <button onclick="toggle2HourHeatmap()">> 2 hours</button>
+  <button onclick="toggle1HourHeatmap()">> 1 hour</button>
+  <button onclick="toggle50MinutesHeatmap()">> 50 Minutes</button>
+  <button onclick="toggle40MinutesHeatmap()">> 40 Minutes</button>
+  <button onclick="toggle30MinutesHeatmap()">> 30 Minutes</button>    
+  <button onclick="toggle25MinutesHeatmap()">> 25 Minutes</button>
+  <button onclick="toggle20MinutesHeatmap()">> 20 Minutes</button>
+  <button onclick="toggle17MinutesHeatmap()">> 17 Minutes</button>
+  <button onclick="toggle14MinutesHeatmap()">> 14 Minutes</button>
+  <button onclick="toggle11MinutesHeatmap()">> 11 Minutes</button>    
+  <button onclick="toggle9MinutesHeatmap()">> 9 Minutes</button>
+  <button onclick="toggle7MinutesHeatmap()">> 7 Minutes</button>
+</div>
+<div id="map"></div>
+    
+</body>
+<div id="map"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=APIKEY&libraries=visualization&callback=initMap" async defer></script>
+<script src='HeatMap3JS.js'></script>

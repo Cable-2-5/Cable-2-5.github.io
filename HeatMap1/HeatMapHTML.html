@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<head>
+<link rel="stylesheet" type="text/css" href="HeatMapCSS.css">
+</head>
+<body>
+<div id="floating-panel">
+  <button onclick="toggleInvestigationHeatmap()">Investigation</button>
+  <button onclick="toggleSquadHeatmap()">Rescue Squad</button>
+  <button onclick="toggleCaptainHeatmap()">Rescue Captain</button>
+  <button onclick="toggleChiefHeatmap()">Chief</button>
+  <button onclick="toggleTruckHeatmap()">Truck</button>
+  <button onclick="togglePrivateHeatmap()">Private</button>
+  <button onclick="toggleMedicHeatmap()">Medic</button>
+  <button onclick="toggleEngineHeatmap()">Engine</button>
+  <button onclick="toggleSupportHeatmap()">Support</button>
+</div>
+</body>
+<div id="map"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=APIKEY&libraries=visualization&callback=initMap" async defer></script>
+<script src='HeatMapJS.js'></script>

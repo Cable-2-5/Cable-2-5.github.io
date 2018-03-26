@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<head>
+<link rel="stylesheet" type="text/css" href="HeatMapCSS.css">
+</head>
+<body>
+<!-- This panel contains the buttons -->
+<div id="panel">
+  <button onclick="toggleAlarmsHeatmap()">
+  Alarms
+  </button>
+  <button onclick="toggleCitizenHeatmap()">
+  Citizen Assist / Service Call
+  </button>
+  <button onclick="toggleElectricalHeatmap()">
+  Electrical Hazard
+  </button>
+  <button onclick="toggleElevatorHeatmap()">
+  Elevator / Escalator Rescue
+  </button>
+  <button onclick="toggleFuelHeatmap()">
+  Fuel Spill
+  </button>
+  <button onclick="toggleGasHeatmap()">
+  Gas Leak
+  </button>
+  <button onclick="toggleHazMatHeatmap()">
+  HazMat
+  </button>
+  <button onclick="toggleMedicalHeatmap()">
+  Medical Incident
+  </button>
+  <button onclick="toggleOdorHeatmap()">
+  Odor
+  </button>
+  <button onclick="toggleOtherHeatmap()">
+  Other
+  </button>
+  <button onclick="toggleOutsideHeatmap()">
+  Outside Fire
+  </button>
+  <button onclick="toggleSmokeHeatmap()">
+  Smoke Investigation
+  </button>
+  <button onclick="toggleStructureHeatmap()">
+  Structure Fire
+  </button>
+  <button onclick="toggleTrafficHeatmap()">
+  Traffic Collision
+  </button>
+  <button onclick="toggleTrainHeatmap()">
+  Train / Rail Incident
+  </button>
+  <button onclick="toggleVehicleHeatmap()">
+  Vehicle Fire
+  </button>
+  <button onclick="toggleWaterHeatmap()">
+  Water Rescue
+  </button>
+</div>
+</body>
+<div id="map"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=APIKEY&libraries=visualization&callback=initMap" async defer></script>
+<script src='HeatMap2JS.js'></script>
+</script>
