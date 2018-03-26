@@ -16,7 +16,7 @@ Data Visuals: Display or graph 3 metrics or trends from the data set that are in
 ## Question 2
 Given an address and time, what is the most likely dispatch to be required?
 
-[Temporary Link](https://cable-2-5.github.io/lookup/dispatch.html)
+[Dispatch and Time lookup](https://cable-2-5.github.io/lookup/dispatch.html)
 
 
 ## Question 3
@@ -26,3 +26,8 @@ The zip codes which take the longest time to dispatch to on average are 94105 an
 Notably, both zip codes 94105 and 94127 have major outliers in the data (see Figure 3).  For zip code 94127, much of the delay occurred between entry and dispatch (29.6 minutes).  Thus, the time to arrive on scene may be reduced by finding ways to speed the time between entry and dispatch.  Similarly, emergencies occurring in zip code 94105 have delays between receiving calls and entering data.  Time can be reduced by thoroughly examining the process of receiving a call to entering data into the system in zip code 94127.
 The zip codes which takes the longest time from dispatch to arrive on the scene are 94127 and 94129 which take 11.3 and 11.1 minutes respectively.  There are not many emergencies in these areas, so it is possible that it is merely the result of a few outliers, but it could also be partially due to the layout of the roads in these areas.  Most of the roads in these areas are curved in contrast to many of the completely straight roads in other areas of the city. 
 
+
+## Bonus Heatmaps
+[Unit Type Heatmap](https://cable-2-5.github.io/heatmap1)
+[Call Type Heatmap](https://cable-2-5.github.io/heatmap2)
+[Longest Dispatch Time Heatmap](https://cable-2-5.github.io/heatmap3)
