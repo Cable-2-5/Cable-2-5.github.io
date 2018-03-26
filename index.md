@@ -28,6 +28,6 @@ The zip codes which takes the longest time from dispatch to arrive on the scene 
 
 
 ## Bonus Heatmaps
-[Unit Type Heatmap](https://cable-2-5.github.io/heatmap1)
-[Call Type Heatmap](https://cable-2-5.github.io/heatmap2)
-[Longest Dispatch Time Heatmap](https://cable-2-5.github.io/heatmap3)
+* [Unit Type Heatmap](https://cable-2-5.github.io/heatmap1)
+* [Call Type Heatmap](https://cable-2-5.github.io/heatmap2)
+* [Longest Dispatch Time Heatmap](https://cable-2-5.github.io/heatmap3)
